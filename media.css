@@ -1,0 +1,37 @@
+
+@media (max-width: 1000px){
+    .furnished-space-wrapper{
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
+
+    .furniture-business-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .review-cards,
+    .companies,
+    .collaboration-holder,
+    .never-assemble-wrapper,
+    .bestseller-cards,
+    .garage-sale-wrapper,
+    .room-cards,
+    .curated-wrapper{
+        align-items: center;
+        flex-direction: column;
+    }
+    .collaboration-text button {
+        margin-bottom: 10px;
+    }
+    .moving-to h2 {
+        padding: 0px;
+        margin-bottom: 15px;
+    }
+    .navbar{
+        justify-content: center;
+    }
+    .garage-sale-img,
+    .never-assemble-img{
+        margin: 0px;
+    }
+}
