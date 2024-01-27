@@ -4,7 +4,12 @@
         flex-direction: column-reverse;
         margin-bottom: 50px;
     }
-
+    .text:nth-child(odd){
+        padding: 0;
+    }
+    .moving-to{
+        width: fit-content;
+    }
     .furniture-business-wrapper {
         flex-direction: column-reverse;
     }

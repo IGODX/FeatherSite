@@ -88,7 +88,18 @@ color: #000000;
 }
 
 .curated-img{
-    flex: 1;
+    max-width: 600px;
+}
+.curated-img img{
+    width: 100%;
+}
+
+.enjoy-img{
+    max-width: 600px;
+}
+
+.enjoy-img img{
+    width: 100%;
 }
 
 .shop-by-room h2{
@@ -218,7 +229,7 @@ color: #E9672B;
 
 .garage-sale-wrapper .text,
 .never-assemble-wrapper .text   {
-    width: 427px !important; 
+    max-width: 427px !important; 
 }
 
 .furniture-business-wrapper{
