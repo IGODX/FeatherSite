@@ -296,6 +296,7 @@ margin-bottom: 144px;
     display: flex;
 }
 .collaboration-text{
+    height: 343px;
     margin-left: -5px;
     background: #E9672B;
     display: flex;
@@ -320,6 +321,14 @@ margin-bottom: 32px;
 background: #FFFFFF;
 border-radius: 88px;
 padding: 16px 40px;
+}
+
+.bedroom-img-holder{
+    max-width: 832px;
+}
+
+.bedroom-img-holder img{
+    width: 100%;
 }
 
 .reviews h2{

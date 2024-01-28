@@ -23,10 +23,15 @@
     .never-assemble-wrapper,
     .bestseller-cards,
     .garage-sale-wrapper,
-    .room-cards,
-    .curated-wrapper{
+    .room-cards
+    {
         align-items: center;
         flex-direction: column;
+    }
+    .curated-wrapper{
+        flex-direction: column-reverse;
+        align-items: center;
+
     }
     .collaboration-text button {
         margin-bottom: 10px;
@@ -51,6 +56,9 @@
     }
     .navbar{
         flex-direction: column;
+    }
+    .curated-text h1{
+        font-size: 32px;
     }
     .navbar>*{
         margin-bottom: 50px;
