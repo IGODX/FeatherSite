@@ -7,6 +7,9 @@
     .text:nth-child(odd){
         padding: 0;
     }
+    .navbar ul li{
+        padding-left: 0;
+    }
     .moving-to{
         width: fit-content;
     }
@@ -38,5 +41,22 @@
     .garage-sale-img,
     .never-assemble-img{
         margin: 0px;
+    }
+}
+
+
+@media (max-width:600px){
+    .moving-to{
+        width: 300px;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .navbar>*{
+        margin-bottom: 50px;
+    }
+
+    .moving-to h2{
+        font-size: 25px;
     }
 }
