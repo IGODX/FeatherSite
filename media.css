@@ -51,6 +51,15 @@
 
 
 @media (max-width:600px){
+    .keeping-furniture h2{
+        max-width: 266px;
+    }
+    .curated-text p,
+    .text p,
+    .keeping-furniture p,
+    .text h2{
+        max-width: 200px;
+    }
     .moving-to{
         width: 300px;
     }
