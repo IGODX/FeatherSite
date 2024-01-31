@@ -1,11 +1,11 @@
 
 @media (max-width: 1000px){
+    .text:nth-child(odd){
+        padding: 0px;
+    }
     .furnished-space-wrapper{
         flex-direction: column-reverse;
         margin-bottom: 50px;
-    }
-    .text:nth-child(odd){
-        padding: 0;
     }
     .navbar ul li{
         padding-left: 0;
@@ -63,18 +63,6 @@
 
 
 @media (max-width:600px){
-    .keeping-furniture h2{
-        max-width: 266px;
-    }
-    .curated-text p,
-    .text p,
-    .keeping-furniture p,
-    .text h2{
-        max-width: 200px;
-    }
-    .moving-to{
-        width: 300px;
-    }
     .navbar{
         flex-direction: column;
     }
@@ -86,6 +74,7 @@
     }
 
     .moving-to h2{
-        font-size: 25px;
+        font-weight: bold;
+        font-size: 50px;
     }
 }

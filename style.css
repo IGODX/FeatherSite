@@ -246,6 +246,7 @@ color: #E9672B;
 
 .furniture-business-wrapper{
     display: flex;
+    align-items: center;
     padding-top: 129px;
     justify-content: center;
 }
