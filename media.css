@@ -33,6 +33,11 @@
         align-items: center;
 
     }
+    .collaboration-text{
+        margin-left: auto;
+        min-height: 390px;
+        padding: 50px;
+    }
     .collaboration-text button {
         margin-bottom: 10px;
     }
