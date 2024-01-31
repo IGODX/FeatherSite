@@ -1,9 +1,12 @@
 *{
-    margin: 0 auto;
-    border: none;
-    outline: none;
+    margin: 0;
+
     font-family: 'Roboto';
     
+}
+button{
+    border: none;
+    outline: none;
 }
 
 header{
@@ -52,19 +55,23 @@ font-weight: 400;
 line-height: 28px;
 letter-spacing: 0em;
 text-align: left;
+transition: background 0.3s ease-in-out ;
+cursor: pointer;
 
 }
-
+.get-started-btn:hover{
+    background: #fd5507;
+}
 .curated-wrapper{
     display: flex;
-    width: 100%;
-    padding-top: 126px;
+    padding-top: 29px;
+    justify-content: center;
+    align-items: center;
 }
 
 .curated-text{
     max-width: 600px;
     flex: 1;
-    padding-top: 90px;
 }
 .curated-text h1{
 font-weight: 400;
@@ -114,7 +121,7 @@ letter-spacing: 0em;
 .room-cards{
     padding-top: 43px;
     display: flex;
-    margin: 0px;
+    justify-content: center;
 }
 .room-card{
     z-index: 99;
@@ -159,8 +166,10 @@ letter-spacing: 0em;
 }
 
 .keeping-furniture{
-    padding-top: 202px;
     text-align: center;
+    padding-top: 202px;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -171,7 +180,10 @@ line-height: 44px;
 letter-spacing: 0em;
 }
 
-
+.keeping-text{
+    display: flex;
+    justify-content: center;
+}
 .keeping-furniture h2{
     font-size: 36px;
     font-weight: 400;
@@ -229,23 +241,26 @@ color: #E9672B;
 
 .garage-sale-wrapper .text,
 .never-assemble-wrapper .text   {
-    max-width: 427px !important; 
+    max-width: 427px ; 
 }
 
 .furniture-business-wrapper{
     display: flex;
     padding-top: 129px;
+    justify-content: center;
 }
 
 .never-assemble-wrapper {
     padding-top: 129px;
     display: flex;
     align-items: center;
-    margin-bottom: 335px;
+    justify-content: center;
+    margin-bottom: 125px;
 }
 
 .text:nth-child(odd) {
     padding-left: 85px;
+    margin-right: 100px;
 }
 
 .bestsellers{
@@ -269,7 +284,12 @@ text-align: center;
     display: flex;
     gap: 12px;
     text-align: center;
-
+    justify-content: center
+}
+.furnished-space-wrapper,
+.garage-sale-wrapper
+{
+    justify-content: center;
 }
 
 .bestseller-card{
@@ -300,6 +320,7 @@ margin-bottom: 144px;
     margin-left: -5px;
     background: #E9672B;
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -349,7 +370,7 @@ padding: 16px 40px;
   
 .review-cards{
     display: flex;
-
+    justify-content: center;
 }
 
 .review-card:nth-of-type(1){
@@ -381,6 +402,9 @@ padding: 16px 40px;
 
 .companies {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .companies img:nth-of-type(1){ 
@@ -482,6 +506,7 @@ margin-bottom: 39px;
 
 .flex{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .social-media-images img{

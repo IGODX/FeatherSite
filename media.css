@@ -10,6 +10,13 @@
     .navbar ul li{
         padding-left: 0;
     }
+    .furniture-holder{
+        padding: 0px;
+    }
+
+    .footer>div>div>div{
+        margin: auto;
+    }
     .moving-to{
         width: fit-content;
     }
