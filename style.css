@@ -120,6 +120,7 @@ letter-spacing: 0em;
 
 .room-cards{
     padding-top: 43px;
+    gap: 20px;
     display: flex;
     justify-content: center;
 }
